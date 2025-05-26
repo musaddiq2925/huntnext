@@ -1,0 +1,57 @@
+Item Name: HuntNext - Recruitment & Hiring HTML5 Template
+Demo URL: https://camionthemes.com/HuntNext/
+
+3 Special Sentences
+-------------------
+Enjoy a one-time purchase and receive lifetime updates
+Responsive layout looks stunning on all devices
+Built with Bootstrap v5.3.3
+
+Tags:
+Business Growth, Marketing Tips,Entrepreneurship,Success Story,Startups,Discounts,Limited Offer,
+Healthy Living,Self Care,Motivation,Stay Productive,Tech Trends, Innovation,AI Revolution,Gadgets,TechSavvy,Follow ForMore,
+Content Creation,Social Media Growth,Recommended,Featured,Essentials,Exclusive,
+
+Description:
+<p><strong>HuntNext</strong>is a sleek and versatile HTML5 template designed specifically for Recruitment & Hiring HTML Template websites. With its clean, modern design and user-friendly interface, <strong>HuntNext</strong> offers a stylish platform to showcase your Recruitment & Hiring, services, and various Recruitment & Hiring -related projects. Whether you're running a Recruitment & Hiring, a Recruitment & Hiring operator, or promoting Recruitment & Hiring. Perfect for highlighting destinations, Business Growth, Marketing Tips,Entrepreneurship,Success Story,Startups, and more, <strong>HuntNext</strong> is the ideal choice for any Recruitment & Hiring looking to make a strong impression online.</p>
+
+<p>Made with Bootstrap 5.x, HuntNext provides a range of customizable features to suit your individual style and preferences.</p>
+
+<h2>Features:</h2>
+
+<ul>
+	<li>02+ Home Pages</li>
+	<li>Fully Responsive Layout</li>
+	<li>Easy to Customize</li>
+	<li>Smooth Animations</li>
+	<li>SEO-Friendly Code</li> tag
+	<li>Multiple Header Style</li>
+	<li>Social Profile Links</li>
+	<li>Google Fonts</li>
+	<li>Clean and Organize Codes</li>
+	<li>Detailed Documentation</li>
+	<li>Easy to Customize</li>
+	<li>Bootstrap 5.x</li>
+	<li>HTML5 & CSS3 Layout</li>
+	<li>W3 Valid Code</li>
+	<li>Cross Browser Compatibility</li>
+	<li>Documentation and Dedicated Support</li>
+</ul>
+
+<h2>Support:</h2>
+<p>If you have any inquiries, please don't hesitate to reach out to us via email at <a href="camionthemes@gmail.com">camionthemes@gmail.com</a>. Our dedicated support team is here to assist you promptly and efficiently.</p>
+
+<h2>Demo Images:</h2>
+<p><strong>Note:</strong>
+The images provided are solely for demo purposes. If you require actual demo images, please send us email at <a href="camionthemes@gmail.com">camionthemes@gmail.com</a>, and our team will be happy to assist you promptly.
+</p>
+
+<h2>Source and Credits:</h2>
+<ul>
+	<li>Bootstrap 5.x</li>
+	<li>Google Fonts</li>
+	<li>HTML5 & CSS3</li>
+	<li>Placeholdit</li>
+	<li>JavaScript</li>
+	<li>Swipper JS</li>
+</ul>
