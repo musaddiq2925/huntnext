@@ -26,6 +26,23 @@
         <div class="has-smooth" id="has_smooth"></div>
         <!-- Start Top Header Area -->
 
+        <!-- Preloader -->
+        <div class="preloader" role="status" aria-label="Loading">
+            <div class="preloader__content">
+                <div class="preloader__logo">
+                    <svg viewBox="0 0 100 100" class="preloader__icon" aria-hidden="true">
+                        <path d="M50 10 L90 50 L50 90 L10 50 Z" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="8" stroke-dasharray="150 150" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h1 class="preloader__title">Finding the Best Talent</h1>
+                <div class="preloader__progress">
+                    <div class="preloader__progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
         <!-- Start Navbar Area -->
         <nav class="navbar navbar-expand-lg bg-white" id="navbar">
             <div class="container-fluid side-padding position-relative">
@@ -68,9 +85,38 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link c-n" href="team.html">
-                                Our Teams
+                            <a class="nav-link dropdown-toggle c-n" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
                             </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="team.html">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="job-details.html">
+                                        Job Details
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="privacy-policy.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="terms-conditions.html">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="404-error.html">
+                                        404 Error
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link c-n" href="tech-at-huntnext.html">
@@ -153,10 +199,38 @@
                             Life At HuntNext
                         </a>
                     </li>
-                    <li class="mobile-menu-list without-icon">
-                        <a href="team.html" class="nav-link">
-                            Our Teams
+                    <li class="mobile-menu-list">
+                        <a href="javascript:void(0);">
+                            Pages
                         </a>
+
+                        <ul class="mobile-menu-items">
+                            <li>
+                                <a class="dropdown-item" href="team.html">
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="job-details.html">
+                                    Job Details
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="privacy-policy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="terms-conditions.html">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="job-details.html">
+                                    Job Details
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="mobile-menu-list without-icon">
                         <a href="tech-at-huntnext.html" class="nav-link">
@@ -212,47 +286,47 @@
         <!-- End Mobile Menu -->
 
         <!-- Start Banner Area -->
-        <div class="banner-area ptb-120">
-        <div class="container-fluid side-padding">
-            <div class="banner-content">
-                <div class="row g-4 align-items-center">
-                    <div class="col-xl-4">
-                        <div class="banner-title">
-                            <h3>A Snapshot Of Life At HuntNext</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-8">
-                        <div class="banner-image-items">
-                            <div class="banner-image">
-                                <img src="assets/images/hero/banner-image-a.jpg" alt="image">
+        <div class="banner-area ptb-120 overflow-hidden">
+            <div class="container-fluid side-padding">
+                <div class="banner-content">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-xl-4">
+                            <div class="banner-title">
+                                <h3>A Snapshot Of Life At HuntNext</h3>
                             </div>
-                            <img class="a-image" src="assets/images/hero/b-image-a.jpg" alt="image">
-                            <img class="b-image" src="assets/images/hero/b-image-b.jpg" alt="image">
-                            <img class="c-image" src="assets/images/hero/b-image-c.jpg" alt="image">
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="banner-image-items">
+                                <div class="banner-image">
+                                    <img src="assets/images/hero/banner-image-a.jpg" alt="image">
+                                </div>
+                                <img class="a-image" src="assets/images/hero/b-image-a.jpg" alt="image">
+                                <img class="b-image" src="assets/images/hero/b-image-b.jpg" alt="image">
+                                <img class="c-image" src="assets/images/hero/b-image-c.jpg" alt="image">
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="advaice-card">
+                    <ul class="advaice-btn list-unstyled pe-0 ps-0 mb-0">
+                        <li class="nav-item">
+                            <a href="#who" class="nav-link">Who we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#guiding" class="nav-link">Our Guiding Principles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#groups" class="nav-link">Our groups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#how" class="nav-link ">How we grow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link ">How we work</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="advaice-card">
-                <ul class="advaice-btn list-unstyled pe-0 ps-0 mb-0">
-                    <li class="nav-item">
-                        <a href="#who" class="nav-link">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#guiding" class="nav-link">Our Guiding Principles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#groups" class="nav-link">Our groups</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#how" class="nav-link ">How we grow</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link ">How we work</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         </div>
         <!-- End Banner Area -->
 
@@ -765,7 +839,7 @@
                     <div class="col-lg-2 col-md-6">
                         <div class="footer-widget">
                             <h3>Careers</h3>
-                            <ul class="pe-0 ps-0 list-unstyled">
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
                                 <li>
                                     <a href="open-roles.html">Open roles</a>
                                 </li>
@@ -784,7 +858,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h3>Explore</h3>
-                            <ul class="pe-0 ps-0 list-unstyled">
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
                                 <li>
                                     <a href="life-at-huntnext.html">Life At HuntNext</a>
                                 </li>

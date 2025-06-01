@@ -26,6 +26,23 @@
         <div class="has-smooth" id="has_smooth"></div>
         <!-- Start Top Header Area -->
 
+        <!-- Preloader -->
+        <div class="preloader" role="status" aria-label="Loading">
+            <div class="preloader__content">
+                <div class="preloader__logo">
+                    <svg viewBox="0 0 100 100" class="preloader__icon" aria-hidden="true">
+                        <path d="M50 10 L90 50 L50 90 L10 50 Z" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="8" stroke-dasharray="150 150" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h1 class="preloader__title">Finding the Best Talent</h1>
+                <div class="preloader__progress">
+                    <div class="preloader__progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
         <!-- Start Navbar Area -->
         <nav class="navbar navbar-expand-lg bg-white" id="navbar">
             <div class="container-fluid side-padding position-relative">
@@ -68,9 +85,38 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link c-n" href="team.html">
-                                Our Teams
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
                             </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="team.html">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="job-details.html">
+                                        Job Details
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="privacy-policy.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="terms-conditions.html">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="404-error.html">
+                                        404 Error
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link c-n" href="tech-at-huntnext.html">
@@ -153,10 +199,38 @@
                             Life At HuntNext
                         </a>
                     </li>
-                    <li class="mobile-menu-list without-icon">
-                        <a href="team.html" class="nav-link">
-                            Our Teams
+                    <li class="mobile-menu-list">
+                        <a href="javascript:void(0);">
+                            Pages
                         </a>
+
+                        <ul class="mobile-menu-items">
+                            <li>
+                                <a class="dropdown-item" href="team.html">
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="job-details.html">
+                                    Job Details
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="privacy-policy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="terms-conditions.html">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="job-details.html">
+                                    Job Details
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="mobile-menu-list without-icon">
                         <a href="tech-at-huntnext.html" class="nav-link">
@@ -816,7 +890,7 @@
                     <div class="col-lg-2 col-md-6">
                         <div class="footer-widget">
                             <h3>Careers</h3>
-                            <ul class="pe-0 ps-0 list-unstyled">
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
                                 <li>
                                     <a href="open-roles.html">Open roles</a>
                                 </li>
@@ -835,7 +909,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h3>Explore</h3>
-                            <ul class="pe-0 ps-0 list-unstyled">
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
                                 <li>
                                     <a href="life-at-huntnext.html">Life At HuntNext</a>
                                 </li>

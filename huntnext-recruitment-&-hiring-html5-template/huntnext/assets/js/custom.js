@@ -2,6 +2,50 @@
 	"use strict";
 
     // Preloader JS
+    document.addEventListener('DOMContentLoaded', function() {
+        const preloader = document.querySelector('.preloader');
+        const progressBar = document.querySelector('.preloader__progress-bar');
+        const mainContent = document.querySelector('.main-content');
+        
+        // Simulate loading progress
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += Math.random() * 15;
+            if (progress >= 100) {
+                progress = 100;
+                clearInterval(interval);
+                
+                // Hide preloader and show content when loading is complete
+                setTimeout(() => {
+                    preloader.style.opacity = '0';
+                    setTimeout(() => {
+                        preloader.style.display = 'none';
+                        mainContent.style.display = 'block';
+                        setTimeout(() => {
+                            mainContent.style.opacity = '1';
+                        }, 50);
+                    }, 500);
+                }, 300);
+            }
+            progressBar.style.width = `${progress}%`;
+        }, 300);
+        
+        // Fallback in case something goes wrong
+        setTimeout(() => {
+            if (progress < 100) {
+                clearInterval(interval);
+                progressBar.style.width = '100%';
+                preloader.style.opacity = '0';
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                    mainContent.style.display = 'block';
+                    setTimeout(() => {
+                        mainContent.style.opacity = '1';
+                    }, 50);
+                }, 500);
+            }
+        }, 500);
+    });
 
     // Check if elements with the class "search-toggler" exist
     const searchTogglers = document.querySelectorAll(".search-toggler");
@@ -87,7 +131,7 @@
         } catch (err) {}
 
     };
-    
+
     // Advice Slider JS
     var swiper = new Swiper(".advice-slider", {
         slidesPerView: 1,
@@ -199,6 +243,9 @@
                 slidesPerView: 3
             },
             1200: {
+                slidesPerView: 3
+            },
+            1400: {
                 slidesPerView: 4
             }
         }

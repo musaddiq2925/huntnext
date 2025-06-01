@@ -3515,6 +3515,7 @@ Job Details Area CSS
     z-index: 1;
     position: relative;
     background-color: #f5f5f5;
+
     &::before {
         top: 0;
         left: 0;
@@ -3528,13 +3529,16 @@ Job Details Area CSS
     .job-card-items {
         top: 200px;
         position: sticky;
+
         .job-card {
             max-width: 400px;
             padding: 40px 30px;
             border-radius: 10px;
             background-color: var(--white);
+
             h3 {
                 font-size: 40px;
+                line-height: normal;
                 font-weight: 500;
                 margin-bottom: 30px;
             }
@@ -3542,9 +3546,11 @@ Job Details Area CSS
                 margin-bottom: 40px;
                 padding-bottom: 40px;
                 border-bottom: 1px solid var(--border-color2);
+
                 li {
                     font-size: 18px;
                     margin-bottom: 25px;
+
                     &:last-child {
                         margin-bottom: 0;
                     }
@@ -3561,11 +3567,12 @@ Job Details Area CSS
         }
     }
     .job-content-items {
-        margin-left: 130px;
-        max-width: 825px;
+        margin-left: 75px;
+
         h3 {
             font-size: 55px;
-            margin-bottom: 50px;
+            line-height: normal;
+            margin-bottom: 40px;
         }
         h5 {
             font-size: 40px;
@@ -3574,14 +3581,17 @@ Job Details Area CSS
         .job-warp {
             h4 {
                 font-size: 35px;
+                line-height: normal;
                 font-weight: 600;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 20px;
+
                 a {
                     text-decoration: underline;
                     color: var(--paragraph-color);
+
                     &:hover {
                         color: var(--main-color);
                     }
@@ -3593,6 +3603,7 @@ Job Details Area CSS
                     font-size:20px;
                     padding-left: 30px;
                     position: relative;
+
                     &::before {
                         top: 50%;
                         left: 0;
@@ -3612,10 +3623,10 @@ Job Details Area CSS
         }
     }
     .job-benefit-items {
-        margin-top: 120px;
         .warp {
-            margin-left: 210px;
+            margin-left: 150px;
             max-width: 730px;
+
             h3 {
                 font-size: 30px;
                 margin-bottom: 30px;
@@ -3625,9 +3636,10 @@ Job Details Area CSS
             ul {
                 li {
                     margin-bottom: 8px;
-                    font-size:20px;
+                    font-size: 20px;
                     padding-left: 30px;
                     position: relative;
+
                     &::before {
                         top: 50%;
                         left: 0;
@@ -3650,22 +3662,31 @@ Job Details Area CSS
             border-radius: 10px;
             margin-bottom: 50px;
             border: 1px solid var(--border-color2);
+
             .nav-btn {
                 margin-bottom: 30px;
+                padding-bottom: 10px;
+
                 .nav-item {
+                    margin-right: 20px;
+
                     .nav-link {
-                        font-size: 20px;
+                        padding: 0;
                         border: none;
-                        padding: 0 20px 0 0;
+                        font-size: 20px;
                         color: #555555;
                         transition: var(--transition);
                         background-color: transparent;
+
                         &:hover {
                             color: var(--main-color);
                         }
                         &.active {
                             color: var(--main-color);
                         }
+                    }
+                    &:last-child {
+                        margin-right: 0;
                     }
                 }
             }
@@ -3674,7 +3695,8 @@ Job Details Area CSS
     .map-card {
         border-radius: 15px;
         border: 1px solid var(--border-color2);
-        padding: 100px 100px;
+        padding: 50px;
+
         i {
             color: var(--main-color);
             font-size: 150px;
@@ -3692,9 +3714,11 @@ Job Details Area CSS
         border-radius: 10px;
         transition: var(--transition);
         justify-content: space-between;
+
         h3 {
             font-size: 25px;
             margin-bottom: 15px;
+
             a {
                 color: var(--paragraph-color);
             }
@@ -3705,8 +3729,10 @@ Job Details Area CSS
             border-radius: 3px;
             padding: 5px 8px;
             color: var(--white);
+
             a {
                 color: var(--white);
+
                 &.c-63687a {
                     color: #63687a;
                 }
@@ -3729,6 +3755,7 @@ Job Details Area CSS
         }
         &:hover {
             border: 1px solid var(--priMayy-color) !important;
+
             i {
                 color: var(--white);
                 background-color: var(--priMayy-color);
@@ -3765,6 +3792,56 @@ Apply Area CSS
                 box-shadow: unset !important;
             }
         }
+    }
+}
+
+/*
+Terms & Condition Page
+================================================================================*/
+.terms-condition-content {
+    .mt-1 {
+        margin-top: 40px !important;
+    }
+    .mb-1 {
+        margin-bottom: 30px !important;
+    }
+}
+
+/*
+404 Error Page CSS
+================================================================================*/
+.error-area {
+    background: {
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    };
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    .container {
+        max-width: 700px;
+    }
+    .error-content-wrap {
+        z-index: 1;
+        position: relative;
+        p {
+            margin: 25px 0 35px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .default-btn {
+            padding: 28px 50px;
+        }
+    }
+
+    .health-shape-1 {
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
     }
 }
 
@@ -3965,4 +4042,76 @@ Go Top Button CSS
 }
 .astronaut {
     animation: astronaut 5s linear infinite;
+}
+
+/* Preloader CSS */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity $transition-time ease;
+
+    &__content {
+        text-align: center;
+        padding: 2rem;
+        max-width: 500px;
+        width: 90%;
+    }
+    &__logo {
+        margin-bottom: 1.5rem;
+    }
+    &__icon {
+        width: 100px;
+        height: 100px;
+        color: var(--priMayy-color);
+        animation: rotate 2s linear infinite;
+    }
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        color: var(--dark);
+        font-weight: 600;
+    }
+    &__progress {
+        width: 100%;
+        height: 8px;
+        background-color: lighten($primary-color, 30%);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    &__progress-bar {
+        height: 100%;
+        width: 0;
+        background-color: var(--border-color);
+        border-radius: 4px;
+        transition: width 0.3s ease;
+    }
+}
+/* Preloader Animation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .preloader {
+        &__icon {
+            width: 80px;
+            height: 80px;
+        }
+        &__title {
+            font-size: 1.2rem;
+        }
+    }
 }

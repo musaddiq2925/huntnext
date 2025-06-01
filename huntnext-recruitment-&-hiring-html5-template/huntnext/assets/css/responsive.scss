@@ -45,8 +45,14 @@
     .pb-100 {
         padding-bottom: 50px;
     }
+    
+    /* Default css */
+    .default-btn {
+        font-size: 18px;
+        padding: 25px 30px;
+    }
 
-    /* Navbar css*/
+    /* Navbar css */
     .main-navbar {
         top: 0;
         left: 0;
@@ -55,6 +61,7 @@
     }
     .navbar {
         border-bottom: 1px solid #ddd;
+
         .others-options {
             display: none;
         }
@@ -64,6 +71,7 @@
         &.one {
             background-color: #000 !important;
             border-bottom: 1px solid rgba(133, 127, 127, 0.2);
+
             .navbar-toggler {
                 .burger-menu {
                     span {
@@ -74,7 +82,7 @@
         }
     }
 
-    /* Hero Area css*/
+    /* Hero Area css */
     .hero-area {
         padding: {
             top: 50px;
@@ -85,35 +93,41 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .hero-content {
+            padding-top: 0;
+
             .hero-form {
-                Maygin-top: 35px;
+                margin-top: 35px;
+
                 .form-control {
                     height: 60px;
                     padding: 15px 20px 10px;
                 }
+                .serch-btn {
+                    right: 0;
+                }
             }
             .content-btn {
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             h1 {
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
                 font-size: 30px;
             }
             .hero-prg {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
                 &.d-flex {
                     display: block !important;
                 }
                 p {
                     font-size: 15px;
-                    Maygin-bottom: 15px !important;
+                    margin-bottom: 15px !important;
                 }
             }
         }
         .hero-image-items {
             .hero-image {
-                Maygin-bottom: 20px;
-                Maygin-top: 50px;
+                margin-bottom: 20px;
+                margin-top: 50px;
                 img {
                     width: 100%;
                 }
@@ -124,10 +138,10 @@
                 }
             }
             .image-style2 {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .image-style3 {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .baground-one {
                 display: none;
@@ -136,7 +150,7 @@
     }
     .hero-image-items {
         &.image-container {
-            height: 260vh;
+            height: 183vh;
         }
     }
 
@@ -148,11 +162,11 @@
         }
         .about-image-warp {
             .about-image {
-                Maygin-top: 0;
+                margin-top: 0;
             }
         }
         .about-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 25px;
             }
@@ -168,16 +182,19 @@
     /* Services Area css*/
     .services-area {
         .services-image {
-            Maygin-bottom: 25px;
+            margin-bottom: 25px;
+            height: 300px;
+
             img {
                 border-radius: 10px;
             }
             .warp-card {
                 gap: 10px;
                 bottom: 10px;
-                Maygin-left: 10px;
-                Maygin-right: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
                 padding: 18px 15px;
+
                 h4 {
                     font-size: 15px;
                 }
@@ -191,10 +208,11 @@
         }
         .services-content {
             border-radius: 10px;
-            padding: 30px 30px;
+            padding: 25px 20px;
+
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -210,9 +228,10 @@
         .opportunity-content {
             padding-left: 0;
             max-width: 100%;
+
             h3 {
                 font-size: 28px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -220,11 +239,11 @@
         }
         .opportunity-image {
             .a-image {
-                Maygin-top: 0;
+                margin-top: 0;
             }
             .b-image {
                 right: 0;
-                Maygin-right: 0;
+                margin-right: 0;
             }
         }
        .client-shape-4 {
@@ -239,7 +258,7 @@
             h3 {
                 font-size: 30px;
                 &.mb-5 {
-                    Maygin-bottom: 15px !important;
+                    margin-bottom: 15px !important;
                 }
             }
             p {
@@ -267,7 +286,7 @@
             }
             .project-card-body {
                 max-width: 100%;
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
     }
@@ -277,7 +296,7 @@
         .fun-fact-content {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -286,9 +305,11 @@
         .fun-fact-items {
             .fun-fact-card {
                 text-align: center;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
+                max-width: 100%;
+
                 &.one {
-                    Maygin-top: 0;
+                    margin-top: 0;
                 }
             }
         }
@@ -301,7 +322,7 @@
             padding-right: 50px;
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
     }
@@ -311,16 +332,19 @@
         .title {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .journey-post {
-            padding: 30px 30px;
+            padding: 25px 15px;
+
             .journey-content {
                 ul {
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
+
                     li {
-                        Maygin-right: 5px;
+                        margin-right: 5px;
+
                         span {
                             font-size: 14px;
                         }
@@ -334,7 +358,7 @@
                 }
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 p {
                     font-size: 14px;
@@ -353,21 +377,21 @@
             overflow: hidden;
             &.one {
                 max-width: 100%;
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .client-title {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
             &.mb-60 {
                 max-width: 100%;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .client-card {
@@ -390,13 +414,13 @@
         .jobs-items-warp {
             padding: 35px 20px 35px 20px;
             .jobs-content {
-                Maygin-left: 0;
+                margin-left: 0;
                 .content-btn {
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 h3 {
                     font-size: 25px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
             .jobs-image {
@@ -423,12 +447,22 @@
             .blog-title {
                 h3 {
                     font-size: 25px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
             .blog-btn {
                 &.text-end {
                     text-align: start !important;
+                }
+            }
+        }
+        .blog-card {
+            .blog-card-body {
+                margin: 30px 20px;
+
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 30px;
                 }
             }
         }
@@ -438,8 +472,17 @@
     .next-area {
         .next-items-warp {
             padding: 25px 20px;
+
             .text-end {
                 text-align: start !important;
+            }
+            .content {
+                h4 {
+                    font-size: 20px;
+                }
+                &.gap-5 {
+                    gap: 15px !important;
+                }
             }
         }
     }
@@ -450,13 +493,28 @@
             font-size: 18px;
             padding: 28px 30px;
         }
-        .copyright-area {
-            .text-end {
-                text-align: start !important;
+        .footer-widget {
+            h3 {
+                margin-bottom: 20px;
             }
-            .social {
-                Maygin-top: 0 !important;
+            ul {
+                li {
+                    margin-bottom: 10px;
+                }
             }
+        }
+    }
+
+    /* Copyright Area css */
+    .copyright-area {
+        p {
+            text-align: center;
+        }
+        .justify-content-end {
+            justify-content: center !important;
+        }
+        .social {
+            margin-top: 0 !important;
         }
     }
 
@@ -469,9 +527,9 @@
         }
         .banner-image-items {
             .banner-image {
-                Maygin-left: 0;
+                margin-left: 0;
                 max-width: 100%;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
             .b-image {
                 top: 0;
@@ -479,7 +537,7 @@
                 width: 100%;
                 max-width: 100%;
                 position: relative;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
             .a-image {
                 bottom: 0;
@@ -487,7 +545,7 @@
                 width: 100%;
                 max-width: 100%;
                 position: relative;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
             .c-image {
                 bottom: 0;
@@ -500,10 +558,10 @@
         .advaice-card {
             .advaice-btn {
                 .nav-item {
-                    Maygin-right: 0;
-                    Maygin-bottom: 15px;
+                    margin-right: 0;
+                    margin-bottom: 15px;
                     &:last-child {
-                        Maygin-bottom: 0;
+                        margin-bottom: 0;
                     }
                 }
             }
@@ -514,9 +572,9 @@
     .careers-area {
         .careers-content {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
-                Maygin-bottom: 10px;
+                margin-bottom: 10px;
                 font-size: 25px;
             }
             p {
@@ -527,27 +585,27 @@
 
     /* Second Fun Fact Area css*/
     .second-fun-fact-area {
-        Maygin-bottom: 50px;
+        margin-bottom: 50px;
         .all-padding {
-            padding: 50px 50px;
+            padding: 50px 20px;
         }
         .fun-fact-title {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 25px;
             }
             &.mb-100 {
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
         }
         .count-card {
             h2 {
                 font-size: 40px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.ms-100 {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .row-gap {
@@ -560,7 +618,7 @@
     /*  Guiding Area css*/
     .guiding-area {
         .guiding-title {
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
             h3 {
                 font-size: 35px;
             }
@@ -574,7 +632,7 @@
             }
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -585,11 +643,11 @@
     /* Groups Area css*/
     .groups-area {
         .groups-title {
-            Maygin-bottom: 0;
+            margin-bottom: 0;
             max-width: 100%;
         }
         .groups-contant {
-            Maygin-top: 30px;
+            margin-top: 30px;
             .groups-card {
                 .groups-icon {
                     i {
@@ -604,7 +662,7 @@
                 }
                 h4 {
                     font-size: 20px;
-                    Maygin-bottom: 10px;
+                    margin-bottom: 10px;
                 }
                 p {
                     font-size: 16px;
@@ -617,7 +675,7 @@
     .testiminial-area {
         .tetimonial-content {
             i {
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -635,8 +693,8 @@
     .ladder-area {
         .ladder-content {
             max-width: 100%;
-            Maygin-left: auto;
-            Maygin-top: 0;
+            margin-left: auto;
+            margin-top: 0;
         }
         .ladder-card {
             padding: 30px 25px 30px 25px;
@@ -649,7 +707,7 @@
     /* Events Area css*/
     .events-area {
         .events-title {
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .events-card {
             .events-card-body {
@@ -659,7 +717,7 @@
                 }
                 h3 {
                     font-size: 28px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -671,12 +729,12 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .t-banner-contant {
-            Maygin-bottom: 50px;
+            margin-bottom: 50px;
             .b-image {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .b-title {
-                Maygin-left: 0;
+                margin-left: 0;
                 .select {
                     padding: 20px 30px 0;
                     .form-select {
@@ -698,12 +756,12 @@
                 }
                 h3 {
                     font-size: 30px;
-                    Maygin-bottom: 25px;
+                    margin-bottom: 25px;
                 }
             }
         }
         .advaice-card {
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
 
@@ -713,14 +771,14 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .second-banner-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 40px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
              p {
                 font-size: 16px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .seond-banner-image {
@@ -743,11 +801,11 @@
         .solve-content {
             .solve-card {
                 &.mb-100 {
-                    Maygin-bottom: 50px;
+                    margin-bottom: 50px;
                 }
                 h3 {
                     font-size: 25px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 p {
                     font-size: 16px;
@@ -764,6 +822,7 @@
                     bottom: 10px;
                     left: 10px;
                     right: 10px;
+
                     h3 {
                         font-size: 20px;
                     }
@@ -776,13 +835,14 @@
         }
         .testimoni-card {
             padding: 30px 25px;
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
+
             i {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .relevant-card {
@@ -790,22 +850,26 @@
             ul {
                 li {
                     font-size: 18px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
+        }
+        .tech-accordian {
+            margin-bottom: 50px;
         }
     }
 
     /* Accordion css*/
     .accordion-button {
         font-size: 18px;
-        padding: 15px 20px 20px 20px !important;
+        padding: 15px 20px 20px 0 !important;
+
         &::before {
-            font-size: 30px;
+            font-size: 25px;
         }
         &:not(.collapsed) {
             font-size: 18px;
-            padding: 15px 20px 20px 20px !important;
+            padding: 15px 20px 20px 0 !important;
             &::before {
                 font-size: 30px;
             }
@@ -821,15 +885,24 @@
     .learn-area {
         .learn-content {
             .learn-title {
-                Maygin-bottom: 50px;
+                margin-bottom: 30px;
             }
             .learn-card {
-                 p {
+                i {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 42px;
+                    font-size: 35px;
+                }
+                h4 {
+                    margin-bottom: 20px;
+                }
+                p {
                     font-size: 16px;
-                    Maygin-bottom: 15px;
+                    margin-bottom: 0;
                 }
                 &.mb-100 {
-                    Maygin-bottom: 40px;
+                    margin-bottom: 40px;
                 }
                 &.gap-5 {
                     gap: 15px !important;
@@ -849,7 +922,7 @@
     /* Location Area css*/
     .location-area {
          .l-top-bar {
-            Maygin-bottom: 35px;
+            margin-bottom: 35px;
         }
         .location-contant {
             .location-card {
@@ -866,13 +939,13 @@
         }
         .locations-image {
             position: relative;
-            Maygin-top: 0;
+            margin-top: 0;
         }
         .location-t {
-            Maygin-top: 45px;
+            margin-top: 45px;
             h1 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
         }
     }
@@ -880,10 +953,10 @@
     /* Place Area css*/
     .place-area {
         .place-title {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
-                font-size: 35px;
-                Maygin-bottom: 15px;
+                font-size: 25px;
+                margin-bottom: 12px;
             }
             p {
                 font-size: 16px;
@@ -894,12 +967,12 @@
     /* Relocation Area css*/
     .relocation-area {
         .relocation-warp-image {
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
         }
         .relocation-content {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
@@ -907,7 +980,7 @@
         }
         .relocation-card-body {
             h4 {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.d-flex {
                 display: block !important;
@@ -918,20 +991,23 @@
     /* Country Area css*/
     .country-area {
         .country-title {
-            Maygin-bottom: 25px;
+            margin-bottom: 25px;
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .advaice-card {
             .advaice-btn {
                 .nav-item {
+                    margin-right: 10px;
+                    margin-bottom: 15px !important;
                     .nav-link {
-                        Maygin-bottom: 15px !important;
-                        &:last-child {
-                            Maygin-bottom: 0;
-                        }
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                    &:last-child {
+                        margin-bottom: 0 !important;
                     }
                 }
             }
@@ -939,10 +1015,10 @@
         .europe-card {
             padding: 30px 25px;
             .e-title {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.mb-80 {
-                Maygin-bottom: 40px;
+                margin-bottom: 40px;
             }
             .e-card {
                 .e-image {
@@ -958,10 +1034,10 @@
     .h-banner-area {
         .h-title {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
             h2 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
         }
     }
@@ -972,9 +1048,9 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .how-we-tab {
-            Maygin-bottom: 0;
+            margin-bottom: 0;
             .nav-item {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
                 .nav-link {
                     padding: 10px 25px 10px 30px;
                     font-size: 15px;
@@ -986,18 +1062,18 @@
             padding: 30px 25px;
             h4 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
             }
             .number {
                 font-size: 16px;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .swiper-wrapper {
-            Maygin-bottom: 70px;
+            margin-bottom: 70px;
         }
         .how-items {
             .how-btn {
@@ -1018,7 +1094,7 @@
         padding: 30px 25px;
         h3 {
             font-size: 35px;
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .accordion-button {
             font-size: 18px;
@@ -1054,7 +1130,7 @@
             max-width: 100%;
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -1063,15 +1139,15 @@
         .b-page-image {
             width: 100%;
             height: 280px;
-            Maygin-top: 50px;
+            margin-top: 50px;
             border-radius: 20px;
             position: relative;
-            Maygin-top: 0;
-            Maygin-bottom: 50px;
+            margin-top: 0;
+            margin-bottom: 50px;
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
                 padding: 25px 15px;
             }
         }
@@ -1081,12 +1157,12 @@
     .tag-area {
         ul {
             li {
-                Maygin-right: 0;
+                margin-right: 0;
                 font-size: 14px;
-                Maygin-bottom: 10px;
+                margin-bottom: 10px;
                 padding: 4px 5px;
                 &:last-child {
-                    Maygin-bottom: 0;
+                    margin-bottom: 0;
                 }
             }
         }
@@ -1097,7 +1173,7 @@
         .f-b-content {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
     }
@@ -1107,12 +1183,12 @@
         .blog-header-content {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .details-content {
             .d-image {
-                Maygin-bottom: 35px;
+                margin-bottom: 35px;
             }
         }
         
@@ -1126,13 +1202,13 @@
                 .tag-card {
                     ul {
                         padding-bottom: 20px;
-                        Maygin-bottom: 20px;
+                        margin-bottom: 20px;
                     }
                 }
                 .role-btn {
-                    Maygin-top: 20px;
+                    margin-top: 20px;
                     padding-bottom: 20px;
-                    Maygin-bottom: 30px;
+                    margin-bottom: 30px;
                 }
             }
         }
@@ -1144,25 +1220,25 @@
                 }
                 i {
                     font-size: 100px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                     display: inline-block;
                 }
             }
             .p-border {
                 font-size: 16px;
                 padding-bottom: 20px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
             }
             h4 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
         }
     }
@@ -1170,7 +1246,7 @@
     /* Blog Area css*/
     .blog-area {
         .title {
-            Maygin-bottom: 35px;
+            margin-bottom: 35px;
             h3 {
                 font-size: 25px;
             }
@@ -1182,7 +1258,7 @@
         .title {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
         }
     }
@@ -1198,48 +1274,48 @@
                 padding: 25px 20px;
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 ul {
-                    Maygin-bottom: 25px;
+                    margin-bottom: 25px;
                     padding-bottom: 25px;
                     li {
                         font-size: 15px;
-                        Maygin-bottom: 10px;
+                        margin-bottom: 10px;
                     }
                 }
             }
         }
         .job-content-items {
-            Maygin-left: 0;
+            margin-left: 0;
             max-width: 100%;
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
             .job-warp {
                 h4 {
                     font-size: 25px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 p {
                     font-size: 16px;
                 }
                 &.mb-5 {
-                    Maygin-bottom: 30px !important;
+                    margin-bottom: 30px !important;
                 }
                 ul {
                     li {
-                        Maygin-bottom: 10px;
+                        margin-bottom: 10px;
                         font-size: 15px;
                     }
                 }
             }
         }
         .job-benefit-items {
-            Maygin-top: 60px;
+            margin-top: 60px;
             .warp {
-                Maygin-left: 0;
+                margin-left: 0;
                 max-width: 100%;
             }
             .job-warp {
@@ -1251,7 +1327,7 @@
             }
             .job-benefit-card {
                 padding: 25px 20px;
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
         }
         .map-card {
@@ -1261,7 +1337,7 @@
             }
             i {
                 font-size: 100px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
                 display: inline-block;
             }
         }
@@ -1269,31 +1345,161 @@
             padding: 20px 15px;
             h3 {
                 font-size: 20px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
     }
 
+    /* Banner Area css */
+    .banner-area {
+        .banner-content {
+            margin-bottom: 50px;
+        }
+        .advaice-card {
+            .advaice-btn {
+                .nav-item {
+                    margin-bottom: 10px;
+                    .nav-link {
+                        padding: 10px 15px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
 
+    /* Groups Area css */
+    .groups-area {
+        .groups-title {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
 
+    /* Ladder Area css */
+    .ladder-area {
+        .l-title {
+            margin-bottom: 30px;
+            h3 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
 
+    /* Events Area css */
+    .events-area {
+        .events-card {
+            .events-image {
+                ul {
+                    top: 15px;
+                    left: 15px;
+                    li {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
 
+    /* Next Area css */
+    .next-area {
+        .next-title {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
 
+    /* Client Area css */
+    .client-area {
+        .client-content {
+            max-width: 100%;
+        }
+        .client-title {
+            span {
+                font-size: 18px;
+            }
+        }
+    }
 
+    /* Job Details Area css */
+    .job-details-area {
+        .job-content-items {
+            h5 {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+        }
+    }
 
+    /* Job Details Area css */
+    .job-details-area {
+        .job-benefit-items {
+            .warp {
+                h3 {
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
 
+    /* Solve Area css */
+    .solve-area {
+        .tech-title {
+            margin-bottom: 20px;
+        }
+        .solve-image {
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    /* Tech Area css */
+    .tech-area {
+        .tech-title {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    /* Location Area css */
+    .location-area {
+        .location-contant {
+            .location-card {
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    /* Learn Area css */
+    .learn-area {
+        .learn-content {
+            .learn-title {
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 
 }
 
 /* Min width 576px */
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-    
-}
+@media only screen and (min-width: 576px) and (max-width: 768px) {}
 
 /* Min width 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    
     /* Default css*/
     .container-fluid {
         &.side-padding {
@@ -1338,21 +1544,27 @@
         padding-bottom: 60px;
     }
 
-    /* Navbar css*/
-    .main-navbar {
-        top: 0;
-        left: 0;
-        right: 0;
-        position: relative;
-    }
-    .navbar {
-        .others-options {
-            display: none;
+    /* Top Header Area css */
+    .top-header-area {
+        p {
+            font-size: 15px;
         }
+    }
+
+    /* Navbar css*/
+    .navbar {
         &.one {
-            a.navbar-brand.logo-brand {
-                display: none;
+            .navbar-toggler {
+                .burger-menu {
+                    span {
+                        background-color: #fff !important;
+                    }
+                }
             }
+        }
+        .others-options {
+            position: absolute;
+            right: 60px;
         }
     }
 
@@ -1363,40 +1575,44 @@
             bottom: 50px;
         };
         .container-fluid {
+            margin-right: auto;
             padding-left: calc(var(--bs-gutter-x)* 0.5);
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .hero-content {
+            padding-top: 110px;
             .hero-form {
-                Maygin-top: 35px;
+                margin-top: 35px;
+                
                 .form-control {
-                    height: 60px;
                     padding: 15px 20px 10px;
                 }
             }
             .content-btn {
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             h1 {
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
                 font-size: 30px;
             }
             .hero-prg {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
+
                 &.d-flex {
                     display: block !important;
                 }
                 p {
+                    max-width: 100%;
                     font-size: 15px;
-                    Maygin-bottom: 15px !important;
+                    margin-bottom: 15px !important;
                 }
             }
         }
         .hero-image-items {
-            Maygin-top: 0;
+            margin-top: 0;
             .hero-image {
-                Maygin-bottom: 20px;
-                Maygin-top: 50px;
+                margin-bottom: 20px;
+                margin-top: 50px;
             }
             .image-style1 {
                 max-width: 100% !important;
@@ -1407,11 +1623,11 @@
                 }
             }
             .image-style2 {
-                Maygin-right: 0;
+                margin-right: 0;
                 max-width: 100% !important;
             }
             .image-style3 {
-                Maygin-right: 0;
+                margin-right: 0;
                 .row {
                     align-items: center
                 }
@@ -1422,7 +1638,7 @@
         }
         .hero-image-items {
             &.image-container {
-                height: 130vh;
+                height: 115vh;
             }
         }
     }
@@ -1435,12 +1651,12 @@
         }
         .about-image-warp {
             .about-image {
-                Maygin-top: 0;
+                margin-top: 0;
                 text-align: center;
             }
         }
         .about-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 30px;
             }
@@ -1453,7 +1669,9 @@
     /* Services Area css*/
     .services-area {
         .services-image {
-            Maygin-bottom: 25px;
+            height: 500px;
+            margin-bottom: 25px;
+
             img {
                 border-radius: 10px;
             }
@@ -1461,9 +1679,10 @@
         .services-content {
             border-radius: 10px;
             padding: 40px 50px;
+
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
             p {
                 font-size: 18px;
@@ -1481,7 +1700,7 @@
             max-width: 100%;
             h3 {
                 font-size: 35px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 18px;
@@ -1489,11 +1708,11 @@
         }
         .opportunity-image {
             .a-image {
-                Maygin-top: 0;
+                margin-top: 0;
             }
             .b-image {
                 right: 0;
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .row {
                 align-items: center;
@@ -1511,12 +1730,19 @@
         }
     }
 
+    /* Project Area css */
+    .project-area {
+        .project-card {
+            max-width: 100%;
+        }
+    }
+
     /* Fun Fact Area css*/
     .fun-fact-area {
         .fun-fact-content {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -1524,10 +1750,11 @@
         }
         .fun-fact-items {
             .fun-fact-card {
+                max-width: 100%;
                 text-align: center;
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
                 &.one {
-                    Maygin-top: 0;
+                    margin-top: 0;
                 }
             }
         }
@@ -1538,15 +1765,15 @@
         .title {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .journey-post {
             .journey-content {
                 ul {
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                     li {
-                        Maygin-right: 10px;
+                        margin-right: 10px;
                     }
                 }
             }
@@ -1592,23 +1819,38 @@
                 }
             }
             .jobs-content {
-                Maygin-left: 0;
+                margin-left: 0;
                 .jobs-content {
-                    Maygin-left: 0;
+                    margin-left: 0;
                 }
             }
         }
     }
-    
-    /* Footer Area css*/
-    .footer-area {
-        .copyright-area {
-            .text-end {
-                text-align: start !important;
-            }
-            .social {
-                Maygin-top: 0 !important;
-            }
+
+    /* Journey Area css */
+    .journey-area {
+        .journey-post {
+            padding: 50px 30px;
+        }
+    }
+
+    /* Client Area css */
+    .client-area {
+        .client-title {
+            max-width: 100%;
+        }
+    }
+
+    /* Copyright Area css */
+    .copyright-area {
+        p {
+            text-align: center;
+        }
+        .justify-content-end {
+            justify-content: center !important;
+        }
+        .social {
+            margin-top: 0 !important;
         }
     }
 
@@ -1621,7 +1863,7 @@
         }
         .banner-image-items {
             .banner-image {
-                Maygin-left: 230px;
+                margin-left: 230px;
                 max-width: 310px;
             }
             .b-image {
@@ -1638,9 +1880,9 @@
         .advaice-card {
             .advaice-btn {
                 .nav-item {
-                    Maygin-bottom: 15px;
+                    margin-bottom: 15px;
                     &:last-child {
-                        Maygin-bottom: 0;
+                        margin-bottom: 0;
                     }
                 }
             }
@@ -1651,7 +1893,7 @@
     .careers-area {
         .careers-content {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
     
@@ -1662,18 +1904,18 @@
         }
         .fun-fact-title {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
             &.mb-100 {
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
         }
         .count-card {
             h2 {
                 font-size: 40px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.ms-100 {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .row-gap {
@@ -1686,7 +1928,7 @@
     /*  Guiding Area css*/
     .guiding-area {
         .guiding-title {
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
             h3 {
                 font-size: 35px;
             }
@@ -1700,7 +1942,7 @@
             }
             h3 {
                 font-size: 35px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -1711,11 +1953,11 @@
     /* Groups Area css*/
     .groups-area {
         .groups-title {
-            Maygin-bottom: 0;
+            margin-bottom: 0;
             max-width: 100%;
         }
         .groups-contant {
-            Maygin-top: 50px;
+            margin-top: 50px;
         }
     }
 
@@ -1723,7 +1965,7 @@
     .testiminial-area {
         .tetimonial-content {
             i {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .testimonial-image {
@@ -1736,7 +1978,7 @@
     /* Events Area css*/
     .events-area {
         .events-title {
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .events-card {
             .events-card-body {
@@ -1746,7 +1988,7 @@
                 }
                 h3 {
                     font-size: 28px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -1758,16 +2000,16 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .t-banner-contant {
-            Maygin-bottom: 50px;
+            margin-bottom: 50px;
             .b-image {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .b-title {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .advaice-card {
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
 
@@ -1777,13 +2019,13 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .second-banner-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 50px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
              p {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .seond-banner-image {
@@ -1809,13 +2051,13 @@
         }
         .locations-image {
             position: relative;
-            Maygin-top: 0;
+            margin-top: 0;
         }
         .location-t {
-            Maygin-top: 45px;
+            margin-top: 45px;
             h1 {
                 font-size: 30px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
         }
     }
@@ -1823,10 +2065,10 @@
     /* Place Area css*/
     .place-area {
         .place-title {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 35px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
@@ -1837,12 +2079,12 @@
     /* Relocation Area css*/
     .relocation-area {
         .relocation-warp-image {
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
         }
         .relocation-content {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
@@ -1850,7 +2092,7 @@
         }
         .relocation-card-body {
             h4 {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.d-flex {
                 display: block !important;
@@ -1861,19 +2103,19 @@
     /* Country Area css*/
     .country-area {
         .country-title {
-            Maygin-bottom: 25px;
+            margin-bottom: 25px;
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .advaice-card {
             .advaice-btn {
                 .nav-item {
                     .nav-link {
-                        Maygin-bottom: 15px !important;
+                        margin-bottom: 15px !important;
                         &:last-child {
-                            Maygin-bottom: 0;
+                            margin-bottom: 0;
                         }
                     }
                 }
@@ -1882,10 +2124,10 @@
         .europe-card {
             padding: 30px 25px;
             .e-title {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             &.mb-80 {
-                Maygin-bottom: 40px;
+                margin-bottom: 40px;
             }
             .e-card {
                 .e-image {
@@ -1900,9 +2142,9 @@
     /* How We Area css*/
     .how-we-area {
         .how-we-tab {
-            Maygin-bottom: 40px;
+            margin-bottom: 40px;
             .nav-item {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .how-we-card {
@@ -1910,14 +2152,14 @@
             padding: 30px 25px;
             h4 {
                 font-size: 25px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
             p {
                 font-size: 16px;
             }
         }
         .swiper-wrapper {
-            Maygin-bottom: 100px;
+            margin-bottom: 100px;
         }
         .how-items {
             .how-btn {
@@ -1935,7 +2177,7 @@
         padding: 50px 30px;
         h3 {
             font-size: 35px;
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
         }
     }
 
@@ -1950,21 +2192,21 @@
             max-width: 100%;
             h3 {
                 font-size: 75px;
-                Maygin-bottom: 10px;
+                margin-bottom: 10px;
             }
         }
         .b-page-image {
             width: 100%;
             height: 380px;
-            Maygin-top: 50px;
+            margin-top: 50px;
             border-radius: 20px;
             position: relative;
-            Maygin-top: 0;
-            Maygin-bottom: 50px;
+            margin-top: 0;
+            margin-bottom: 50px;
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
                 padding: 25px 15px;
             }
         }
@@ -1976,7 +2218,7 @@
             .blog-card-body {
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 25px;
+                    margin-bottom: 25px;
                 }
             }
         }
@@ -1987,14 +2229,14 @@
         .f-b-content {
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             .form-control {
                 height: 55px;
                 padding: 20px 35px 15px;
             }
             .form-check {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
                 box-shadow: unset !important;
             }
         }
@@ -2011,13 +2253,13 @@
             }
         }
         .job-content-items {
-            Maygin-left: 0;
+            margin-left: 0;
             max-width: 100%;
         }
         .job-benefit-items {
-            Maygin-top: 80px;
+            margin-top: 80px;
             .warp {
-                Maygin-left: 0;
+                margin-left: 0;
                 max-width: 100%;
             }
         }
@@ -2026,13 +2268,57 @@
     /* apply area */
     .apply-area {
         .apply-form {
-            max-width: 600px;
+            max-width: 100%;
         }
     }
 
+    /* Next Area css */
+    .next-area {
+        .next-items-warp {
+            padding: 35px 30px;
+            .content.gap-5 {
+                gap: 20px !important;
+            }
+        }
+    }
 
+    /* Testiminial Area css */
+    .testiminial-area {
+        .tetimonial-content {
+            max-width: 100%;
+        }
+    }
 
+    /* Groups Area css */
+    .groups-area {
+        .groups-image {
+            max-width: 100%;
+        }
+    }
 
+    /* Learn Area css */
+    .learn-area {
+        .learn-content {
+            max-width: 100%;
+        }
+        .learn-image {
+            &::after {
+                display: none;
+            }
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    /* Hunt Area css */
+    .h-banner-area {
+        .h-title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+    }
 
 }
 
@@ -2083,42 +2369,57 @@
         padding-bottom: 90px;
     }
 
-    //
-    .main-navbar {
-        top: 0;
-        position: relative;
+    /* Top Header Area css */
+    .top-header-area {
+        p {
+            font-size: 16px;
+        }
     }
+
+    /* Navbar Area css */
     .navbar {
         .collapse:not(.show) {
             display: none !important;
         }
-        .others-options {
-            display: none;
-        }
         &.one {
-            a.navbar-brand.logo-brand {
-                display: none;
+            .navbar-toggler {
+                .burger-menu {
+                    span {
+                        background-color: #fff !important;
+                    }
+                }
             }
         }
+        .others-options {
+            position: absolute;
+            right: 60px;
+        }
     }
-    .navbar-expand-lg .navbar-toggler {
-        display: block !important;
+    .navbar-expand-lg {
+        .navbar-toggler {
+            display: block !important;
+        }
     }
 
     /* Hero Area css*/
     .hero-area {
         .hero-content {
+            padding-top: 100px;
             .hero-prg {
                &.d-flex {
                     display: block !important;
                 }
                 p {
-                    Maygin-bottom: 15px !important;
+                    max-width: 100%;
+                    margin-bottom: 15px !important;
                 }
             }
             h1 {
-                Maygin-bottom: 35px;
+                margin-bottom: 35px;
                 font-size: 40px;
+            }
+            .hero-form {
+                margin-top: 30px;
             }
         }
     }
@@ -2130,38 +2431,33 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .about-content {
-            Maygin-left: 0;
+            margin-left: 0;
         }
-    }
-    
-    /* Services Area css*/
-    .services-area {
-        .services-image {
-            .warp-card {
-                gap: 10px;
-                bottom: 10px;
-                Maygin-left: 10px;
-                Maygin-right: 10px;
-                padding: 18px 15px;
-                h4 {
-                    font-size: 15px;
-                }
-                i {
-                    width: 45px;
-                    height: 45px;
-                    line-height: 45px;
-                    font-size: 20px;
-                }
+        .about-image-warp {
+            .about-image {
+                margin-top: 0;
             }
         }
+    }
+
+    /* Services Area css*/
+    .services-area {
         .services-content {
             padding: 65px 40px;
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 16px;
+            }
+        }
+        .services-image {
+            .warp-card {
+                right: 25px;
+                margin-left: 0;
+                margin-right: 0;
+                padding: 25px 30px;
             }
         }
     }
@@ -2177,11 +2473,11 @@
         }
         .opportunity-image {
             .a-image {
-                Maygin-top: 0;
+                margin-top: 0;
             }
             .b-image {
                 right: 0;
-                Maygin-right: 0;
+                margin-right: 0;
             }
         }
     }
@@ -2191,21 +2487,21 @@
         .title {
             h3 {
                 font-size: 30px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .journey-post {
             padding: 30px 30px;
             .journey-content {
                 ul {
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                     li {
-                        Maygin-right: 10px;
+                        margin-right: 10px;
                     }
                 }
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 p {
                     font-size: 16px;
@@ -2227,11 +2523,24 @@
                 }
             }
             .jobs-content {
-                Maygin-left: 30px;
+                margin-left: 30px;
                 h3 {
                     font-size: 35px;
-                    Maygin-bottom: 30px;
+                    margin-bottom: 30px;
                 }
+            }
+        }
+    }
+
+    /* Fun Fact Area css */
+    .fun-fact-area {
+        .fun-fact-content {
+            max-width: 100%;
+        }
+        .fun-fact-items {
+            .fun-fact-card {
+                max-width: 100%;
+                margin: auto;
             }
         }
     }
@@ -2243,17 +2552,28 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .client-card {
-            padding: 25px 20px;
+            padding: 20px 15px;
             p {
                 font-size: 13px;
+                font-weight: 500;
                 padding-bottom: 15px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             h5 {
                 font-size: 16px;
             }
             h4 {
                 font-size: 14px;
+            }
+            .name-content {
+                &.gap-3 {
+                    gap: 10px !important;
+                }
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid var(--main-color);
+                }
             }
         }
         .shape-image {
@@ -2265,7 +2585,7 @@
     .banner-area {
         .banner-image-items {
             .banner-image {
-                Maygin-left: 250px;
+                margin-left: 250px;
                 max-width: 480px;
             }
             .b-image {
@@ -2280,9 +2600,9 @@
         .advaice-card {
             .advaice-btn {
                 .nav-item {
-                    Maygin-bottom: 15px;
+                    margin-bottom: 15px;
                     &:last-child {
-                        Maygin-bottom: 0;
+                        margin-bottom: 0;
                     }
                 }
             }
@@ -2293,9 +2613,9 @@
     .careers-area {
         .careers-content {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
-                Maygin-bottom: 10px;
+                margin-bottom: 10px;
                 font-size: 30px;
             }
             p {
@@ -2311,12 +2631,12 @@
         }
         .fun-fact-title {
             max-width: 100%;
-            Maygin-left: 0;
+            margin-left: 0;
         }
         .count-card {
             h2 {
                 font-size: 40px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .row-gap {
@@ -2330,14 +2650,14 @@
     .testiminial-area {
         .tetimonial-content {
             max-width: 490px;
-            Maygin-left: auto;
+            margin-left: auto;
         }
     }
 
     /* Events Area css*/
     .events-area {
         .events-title {
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .events-card {
             .events-card-body {
@@ -2347,7 +2667,7 @@
                 }
                 h3 {
                     font-size: 28px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -2359,16 +2679,16 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .t-banner-contant {
-            Maygin-bottom: 50px;
+            margin-bottom: 50px;
             .b-image {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .b-title {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .advaice-card {
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
     
@@ -2378,13 +2698,13 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .second-banner-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
                 font-size: 50px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
              p {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .seond-banner-image {
@@ -2408,9 +2728,9 @@
     /* How We Area css*/
     .how-we-area {
         .how-we-tab {
-            Maygin-bottom: 40px;
+            margin-bottom: 40px;
             .nav-item {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .how-we-card {
@@ -2418,11 +2738,11 @@
             padding: 30px 25px;
              h4 {
                 font-size: 25px;
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
         }
         .swiper-wrapper {
-            Maygin-bottom: 100px;
+            margin-bottom: 100px;
         }
         .how-items {
             .how-btn {
@@ -2438,7 +2758,7 @@
     /* Blog Page Area css*/
     .blog-page-area {
         .container-fluid {
-            Maygin-left: 0;
+            margin-left: 0;
             padding-right: calc(var(--bs-gutter-x)* 0);
         }
         .b-page-image {
@@ -2446,7 +2766,7 @@
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
     }
@@ -2455,10 +2775,10 @@
     .blog-area {
         .blog-card {
             .blog-card-body {
-                Maygin: 25px 20px;
+                margin: 25px 20px;
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 30px;
+                    margin-bottom: 30px;
                 }
                 .content {
                     h4 {
@@ -2481,48 +2801,48 @@
                 padding: 25px 20px;
                 h3 {
                     font-size: 20px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 ul {
-                    Maygin-bottom: 25px;
+                    margin-bottom: 25px;
                     padding-bottom: 25px;
                     li {
                         font-size: 15px;
-                        Maygin-bottom: 10px;
+                        margin-bottom: 10px;
                     }
                 }
             }
         }
         .job-content-items {
-            Maygin-left: 50px;
+            margin-left: 50px;
             max-width: 100%;
             h3 {
                 font-size: 25px;
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
             .job-warp {
                 h4 {
                     font-size: 25px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
                 p {
                     font-size: 16px;
                 }
                 &.mb-5 {
-                    Maygin-bottom: 30px !important;
+                    margin-bottom: 30px !important;
                 }
                 ul {
                     li {
-                        Maygin-bottom: 10px;
+                        margin-bottom: 10px;
                         font-size: 15px;
                     }
                 }
             }
         }
         .job-benefit-items {
-            Maygin-top: 60px;
+            margin-top: 60px;
             .warp {
-                Maygin-left: 50px;
+                margin-left: 50px;
                 max-width: 100%;
             }
             .job-warp {
@@ -2534,7 +2854,7 @@
             }
             .job-benefit-card {
                 padding: 25px 20px;
-                Maygin-bottom: 30px;
+                margin-bottom: 30px;
             }
         }
         .map-card {
@@ -2544,7 +2864,7 @@
             }
             i {
                 font-size: 100px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
                 display: inline-block;
             }
         }
@@ -2552,7 +2872,7 @@
             padding: 20px 15px;
             h3 {
                 font-size: 20px;
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
     }
@@ -2560,11 +2880,63 @@
     /* apply area */
     .apply-area {
         .apply-form {
-            max-width: 780px;
+            max-width: 100%;
         }
     }
 
+    /* Next Area css */
+    .next-area {
+        .next-items-warp {
+            padding: 35px 30px;
+            .content.gap-5 {
+                gap: 20px !important;
+            }
+        }
+    }
 
+    /* Banner Area css */
+    .banner-area {
+        .banner-title {
+            max-width: 100%;
+        }
+    }
+
+    /* Location Area css */
+    .l-banner-area {
+        .location-t {
+            margin-top: 125px;
+            h1 {
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    /* Country Area css */
+    .country-area {
+        .advaice-card {
+            .advaice-btn {
+                .nav-item {
+                    margin-right: 10px;
+                    .nav-link {
+                        padding: 10px 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Hunt Area css */
+    .h-banner-area {
+        .h-title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+    }
 
 }
 
@@ -2594,7 +2966,7 @@
     .navbar {
         .navbar-nav {
             .nav-item {
-                Maygin-right: 25px;
+                margin-right: 25px;
                 .nav-link {
                     padding: 15px 0;
                     font-size: 16px;
@@ -2611,12 +2983,15 @@
     /* Hero Area css*/
     .hero-area {
         .hero-content {
+            h1 {
+                font-size: 50px;
+            }
             .hero-prg {
                 &.d-flex {
                     display: block !important;
                 }
                 p {
-                    Maygin-bottom: 15px !important;
+                    margin-bottom: 15px !important;
                     font-size: 18px;
                 }
             }
@@ -2625,17 +3000,27 @@
 
     /* About Area css*/
     .about-area {
-        .container-fluid {
-            padding-right: calc(var(--bs-gutter-x)* .5);
-            padding-left: calc(var(--bs-gutter-x)* .5);
-        }
         .about-image-warp {
             .about-image {
                 text-align: center;
             }
         }
         .about-content {
-            Maygin-left: 60px;
+            margin-left: 60px;
+
+            h3 {
+                font-size: 45px;
+            }
+        }
+    }
+
+    /* Services Area css */
+    .services-area {
+        .services-image {
+            .warp-card {
+                right: 0;
+                margin-left: 50px;
+            }
         }
     }
     
@@ -2645,22 +3030,30 @@
             padding-left: 0;
             max-width: 100%;
         }
-        .opportunity-image {
-            .b-image {
-                right: -30px;
-                Maygin-right: -45px;
-            }
+    }
+
+    /* Journey Area css */
+    .journey-area {
+        .journey-post {
+            padding: 80px 40px;
         }
     }
     
     /* Jobs Area css*/
     .jobs-area {
         .jobs-items-warp {
-            padding: 80px 80px 80px 80px;
+            padding: 80px 40px 80px 80px;
+
             .jobs-content {
-                Maygin-left: 50px;
+                margin-left: 50px;
+
                 h3 {
-                    font-size: 48px;
+                    font-size: 45px;
+                }
+            }
+            .jobs-image {
+                .style2 {
+                    left: 70px;
                 }
             }
         }
@@ -2671,8 +3064,8 @@
         .blog-card {
             .blog-card-body {
                 h3 {
-                    font-size: 22px;
-                    Maygin-bottom: 50px;
+                    font-size: 20px;
+                    margin-bottom: 50px;
                 }
             }
         }
@@ -2689,7 +3082,7 @@
             p {
                 font-size: 15px;
                 padding-bottom: 15px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             h5 {
                 font-size: 16px;
@@ -2717,14 +3110,14 @@
                 max-width: 175px;
             }
             .banner-image {
-                Maygin-left: 230px;
+                margin-left: 230px;
                 max-width: 330px;
             }
         }
         .advaice-card {
             .advaice-btn {
                 .nav-item {
-                    Maygin-right: 5px;
+                    margin-right: 5px;
                     .nav-link {
                         padding: 5px 30px;
                         font-size: 16px;
@@ -2738,9 +3131,9 @@
     .careers-area {
         .careers-content {
             max-width: 100%;
-            Maygin-left: 50px;
+            margin-left: 50px;
             h3 {
-                Maygin-bottom: 10px;
+                margin-bottom: 10px;
                 font-size: 35px;
             }
             p {
@@ -2752,7 +3145,7 @@
     /*  Guiding Area css*/
     .guiding-area {
         .guiding-title {
-            Maygin-bottom: 30px;
+            margin-bottom: 30px;
             h3 {
                 font-size: 35px;
             }
@@ -2766,7 +3159,7 @@
             }
             h3 {
                 font-size: 40px;
-                Maygin-bottom: 15px;
+                margin-bottom: 15px;
             }
             p {
                 font-size: 18px;
@@ -2784,7 +3177,7 @@
     /* Events Area css*/
     .events-area {
         .events-title {
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .events-card {
             .events-card-body {
@@ -2794,7 +3187,7 @@
                 }
                 h3 {
                     font-size: 28px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -2806,16 +3199,16 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .t-banner-contant {
-            Maygin-bottom: 50px;
+            margin-bottom: 50px;
             .b-image {
-                Maygin-right: 0;
+                margin-right: 0;
             }
             .b-title {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .advaice-card {
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
 
@@ -2825,12 +3218,12 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .second-banner-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
              p {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .seond-banner-image {
@@ -2848,7 +3241,7 @@
     .second-fun-fact-area  {
         .count-card {
             &.ms-100 {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         
@@ -2875,16 +3268,16 @@
     /* How We Area css*/
     .how-we-area {
         .how-we-tab {
-            Maygin-bottom: 40px;
+            margin-bottom: 40px;
             .nav-item {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .how-we-card {
             padding: 30px 25px;
         }
         .swiper-wrapper {
-            Maygin-bottom: 100px;
+            margin-bottom: 100px;
         }
         .how-items {
             .how-btn {
@@ -2900,7 +3293,7 @@
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
     }
@@ -2927,11 +3320,28 @@
         }
     }
 
+    /* Country Area css */
+    .country-area {
+        .europe-card {
+            padding: 80px 50px;
+        }
+    }
 
+    /* Footer Area css */
+    .footer-area {
+        .footer-widget {
+            p {
+                .d-block {
+                    display: inline-block !important;
+                }
+            }
+        }
+    }
 
-
-
-
+    /* Faq Area css */
+    .faq-conatent {
+        padding: 100px 60px;
+    }
 
 }
 
@@ -2945,27 +3355,35 @@
         }
         &.wa-padding {
             max-width: 1320px;
+            margin-right: auto;
+            margin-left: auto;
         }
         &.la-padding {
             max-width: 1320px;
         }
         &.lt-padding {
-            max-width: 1420px;
+            max-width: 1320px;
+            margin-right: auto;
         }
         &.lf-padding {
-            max-width: 1420px;
+            max-width: 1320px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     
     /* Hero Area css*/
     .hero-area {
         .hero-content {
+            h1 {
+                font-size: 60px;
+            }
             .hero-prg {
                 &.d-flex {
                     display: block !important;
                 }
                 p {
-                    Maygin-bottom: 15px !important;
+                    margin-bottom: 15px !important;
                     font-size: 18px;
                 }
             }
@@ -2984,20 +3402,23 @@
             }
         }
         .about-content {
-            Maygin-left: 60px;
+            margin-left: 60px;
         }
     }
     
     /* Opportunity Area css*/
     .opportunity-area {
         .opportunity-content {
-            padding-left: 135px;
+            padding-left: 0;
             max-width: 100%;
         }
-        .opportunity-image {
-            .b-image {
-                right: -30px;
-                Maygin-right: -45px;
+    }
+
+    /* Jobs Area css */
+    .jobs-area {
+        .jobs-items-warp {
+            .jobs-content {
+                margin-left: 68px;
             }
         }
     }
@@ -3017,7 +3438,7 @@
     .banner-area {
         .banner-image-items {
             .banner-image {
-                Maygin-left: 228px;
+                margin-left: 228px;
                 max-width: 400px;
             }
             .b-image {
@@ -3032,7 +3453,7 @@
     /* Events Area css*/
     .events-area {
         .events-title {
-            Maygin-bottom: 20px;
+            margin-bottom: 20px;
         }
         .events-card {
             .events-card-body {
@@ -3042,7 +3463,7 @@
                 }
                 h3 {
                     font-size: 28px;
-                    Maygin-bottom: 20px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -3054,13 +3475,13 @@
             padding-left: calc(var(--bs-gutter-x)* .5);
         }
         .t-banner-contant {
-            Maygin-bottom: 50px;
+            margin-bottom: 50px;
             .b-title {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .advaice-card {
-            Maygin-left: 0;
+            margin-left: 0;
         }
     }
     
@@ -3070,12 +3491,12 @@
             padding-right: calc(var(--bs-gutter-x)* 0.5);
         }
         .second-banner-content {
-            Maygin-left: 0;
+            margin-left: 0;
             h3 {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
              p {
-                Maygin-bottom: 20px;
+                margin-bottom: 20px;
             }
         }
         .seond-banner-image {
@@ -3093,7 +3514,7 @@
     .second-fun-fact-area  {
         .count-card {
             &.ms-100 {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
         .row-gap {
@@ -3114,16 +3535,16 @@
     /* How We Area css*/
     .how-we-area {
         .how-we-tab {
-            Maygin-bottom: 40px;
+            margin-bottom: 40px;
             .nav-item {
-                Maygin-bottom: 25px;
+                margin-bottom: 25px;
             }
         }
         .how-we-card {
             padding: 30px 25px;
         }
         .swiper-wrapper {
-            Maygin-bottom: 100px;
+            margin-bottom: 100px;
         }
         .how-items {
             .how-btn {
@@ -3139,7 +3560,7 @@
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
     }
@@ -3150,7 +3571,6 @@
             width: 550px;
         }
     }
-
 
 }
 
@@ -3175,12 +3595,26 @@
             max-width: 1520px;
         }
     }
+
+    /* Hero Area css */
+    .hero-area {
+        .hero-content {
+            h1 {
+                font-size: 70px;
+            }
+            .hero-prg {
+                p {
+                    max-width: 438px;
+                }
+            }
+        }
+    }
     
     /* Banner Area css*/
     .banner-area {
         .banner-image-items {
             .banner-image {
-                Maygin-left: 235px;
+                margin-left: 235px;
                 max-width: 510px;
             }
             .b-image {
@@ -3196,7 +3630,7 @@
     .t-banner-area {
         .t-banner-contant {
             .b-image {
-                Maygin-right: 0;
+                margin-right: 0;
             }
         }
     }
@@ -3208,19 +3642,28 @@
         }
         .search-area {
             .search-content {
-                Maygin-left: 0;
+                margin-left: 0;
             }
         }
     }
     
-    //
+    /* How We Area css */
     .how-we-area {
         .swiper-pagination-bullet {
             width: 125px;
         }
     }
+
 }
 
 /* Min width 2000px */
 @media only screen and (min-width: 2000px) {
+    
+    /* Default css*/
+    .container-fluid {
+        &.lt-padding {
+            margin-right: auto;
+        }
+    }
+
 }
